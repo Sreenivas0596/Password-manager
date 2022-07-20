@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.password-bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.app-logo-image {
+  width: 200px;
+  height: 80px;
+}
+
+.password-input-card-container {
+  background-color: #5763a5;
+  min-height: 40vh;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  background-color: #454f84;
+  padding: 10px;
+  height: 100%;
+}
+
+.new-password-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.input-and-logo {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.logo-img {
+  background-color: #ffffff;
+  border: 0px;
+  border-left-width: 1px;
+}
+.input-img {
+  background-color: #ffffff;
+  border: 0px;
+  border-left-width: 1px;
+  border-style: solid;
+  border-color: #64748b;
+}
+
+.password-manager-logo-lg {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+.password-manager-logo-sm {
+  width: 40%;
+  height: 40%;
+}
+
+@media screen and (min-width: 576px) {
+  .password-manager-logo-sm {
+    width: 40%;
+    height: 40%;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .password-manager-logo-lg {
+    width: 40%;
+    height: 40%;
+    display: none;
+  }
+}
+
+.show-password-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  display: flex;
+  align-self: flex-end;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.your-passwords-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-passwords {
+  display: flex;
+}
+
+.passwords-length {
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-color: #64748b;
+  border-style: solid;
+  margin-left: 10px;
+}
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-password-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.no-password-manager-logo {
+  width: 60%;
+  text-align: center;
+}
